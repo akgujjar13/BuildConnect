@@ -1,0 +1,253 @@
+/* Import Google font - Poppins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+@media(max-width: 1000px) {
+    td:not(:first-of-type){
+        min-width: 12.1rem;
+    }
+    
+}
+
+body{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/bg.jpg) center / cover;
+}
+main.table {  
+    width: 82vw;
+    height: 90vh;
+    background:#fff5;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+}
+.hide {
+   display: none;
+ }
+
+.table_header {
+    width: 100%;
+    height: 10%;
+    background-color: #fff4;
+    padding: .8rem .1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table_header .input-group img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.table_header .input-group {
+    width: 35%;
+    height: 100%;
+    background-color: #fff5;
+    padding: 0 .8rem;
+    border-radius: 1.2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+.table_header .input-group input {
+    width: 100%;
+    padding: 0 .5rem 0 .3rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+.table_header .input-group:hover {
+    width: 45%;
+    background-color: #fff7;
+    box-shadow: 0 .1rem .4rem #0002;
+}
+
+.table_body {
+    width:95%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #fffb;
+
+    margin: .8rem auto;
+    border-radius: .6rem;
+
+    overflow: overlay;
+    
+}
+
+.table_body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+  
+.table_body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+   
+.table_body:hover::-webkit-scrollbar-thumb{ 
+    visibility: visible;
+}
+
+table {
+    width: 100%;
+}
+table, th, td{
+    padding: 1rem;
+    border-collapse: collapse;
+    text-align: left ;
+
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+
+}
+
+tbody tr:nth-child(even){
+    background-color: #0000000b;
+}
+
+tbody tr.hide {
+    opacity: 0;
+    transform: translateX(100%);
+}
+tbody tr {
+    --delay: .1s;
+    transition: .5s ease-in-out var(--delay) , backgroud-color 0s ;
+}
+
+tbody tr:hover{
+    background-color: #fff6 !important;
+}
+
+tbody tr td,
+tbody tr td p,
+tbody tr td img {
+    transition: .2s ease-in-out;
+}
+tbody tr.hide td,
+tbody tr.hide td p{
+    padding: 0;
+    font: 0/0 sans-serif;
+    transition: .2s ease-in-out .5s;
+}
+tbody tr.hide td img {
+    width: 0;
+    height: 0;
+    transition: .2s ease-in-out .5s ;
+}
+.recommendation {
+    padding: .4rem;
+    border-radius: 2rem;
+
+}
+.recommendation.strongly{
+    background-color: rgb(13, 138, 11);
+    color: #ffffff;
+}
+.recommendation.moderately{
+    background-color: rgb(114, 240, 108);
+    color: #ffffff;
+}
+.recommendation.equally{
+    background-color: rgb(241, 120, 120);
+    color: #ffffff;
+}
+.recommendation.notrecommend{
+    background-color: rgb(125, 2, 2);
+    color: #ffffff;
+}
+
+
+.rating {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse; /* this is the magic */
+    justify-content: flex-end;
+  }
+  
+  
+  .rating label {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .rating label:hover,
+  .rating label:hover ~ label { /* reason why the stars are in reverse order in the html */
+    color: orange;
+  }
+  .rating input:checked ~ label {
+    color: orange;
+  }
+
+.skillbar {
+   position: relative;
+   display: block;
+   width: 100%;
+   margin-bottom: 2px;
+
+ }
+ 
+ .skillbar-bar:before {
+   background: #111;
+   content: "";
+   height: 3px;
+   position: absolute;
+   width: 100%;
+   z-index: -1;
+ }
+ 
+ .skillbar-bar {
+   height: 3px;
+   width: 0px;
+   background: #5318f4;
+   transition-property: width, background-color;
+ }
+ 
+ .skillbar-title {
+   color: #0f0e0e;
+   font-size:10px;
+   font-weight:600;
+   text-transform: uppercase;
+   display: inline-block;
+ }
+ 
+ .skill-bar-percent {
+   
+   display: inline-block;
+   color: #5318f4;
+   font-size: 11px;
+   font-weight: 600;
+   text-transform: uppercase;
+ }
+ 
+ 
+
+ th.sortable {
+   cursor: pointer;
+}
+th.sort-asc::after {
+   content: " ↑";
+}
+th.sort-desc::after {
+   content: " ↓";
+}
+th.sortable:hover {
+   background-color: #f1f1f1;
+}
+

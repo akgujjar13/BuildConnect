@@ -1,0 +1,2561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="table">
+    <section class="table_header">
+      <div class="input-group">
+        <input type="search" placeholder="Search Location/Name/No of Labour">
+        <img src="images/search-icon-png-9985.png" alt="">
+      </div>
+    </section>
+    <section class="table_body">
+      <table>
+        <thead>
+          <tr>
+            <th>Sr.No </th>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Location</th>
+            <th>No of Workers</th>
+            <th>Experience</th>
+            <th>Efficiency</th>
+            <th id="overallEfficiencyHeader" class="sortable">Overall Efficiency</th>
+            <th>Recommendation</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Sagar Devakar</td>
+            <td>9075691219</td>
+            <td>Moshi</td>
+            <td>300</td>
+            <td>5 Years</td>
+            <td>
+
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="24.41%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24.41%</div>
+                <div class="skillbar-bar" style="width: 24.41%"></div>
+              </div>
+              <div class="skillbar" data-percent="11.83%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">11.83%</div>
+                <div class="skillbar-bar" style="width: 11.83%"></div>
+              </div>
+              <div class="skillbar" data-percent="5.78%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5.78%</div>
+                <div class="skillbar-bar" style="width: 5.78%"></div>
+              </div>
+
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="81.03">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendated</p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Suraywanshi k</td>
+            <td>9858452530</td>
+            <td>Nashik phata</td>
+            <td>200</td>
+            <td>12 Years</td>
+            <td>
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="24.33%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24.33%</div>
+                <div class="skillbar-bar" style="width: 24.33%"></div>
+              </div>
+              <div class="skillbar" data-percent="11.83%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">11.83%</div>
+                <div class="skillbar-bar" style="width: 11.83%"></div>
+              </div>
+              <div class="skillbar" data-percent="5.78%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5.78%</div>
+                <div class="skillbar-bar" style="width: 5.78%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="86.21">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendated</p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>United construction</td>
+            <td>9860685019</td>
+            <td>Bavdhan </td>
+            <td>11</td>
+            <td>15 Years</td>
+            <td>
+              <div class="skillbar" data-percent="59.14%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">59.14%</div>
+                <div class="skillbar-bar" style="width: 59.14%"></div>
+              </div>
+              <div class="skillbar" data-percent="24.33%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24.33%</div>
+                <div class="skillbar-bar" style="width: 24.33%"></div>
+              </div>
+              <div class="skillbar" data-percent="12.74%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12.74%</div>
+                <div class="skillbar-bar" style="width: 12.74%"></div>
+              </div>
+              <div class="skillbar" data-percent="5.06%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5.06%</div>
+                <div class="skillbar-bar" style="width: 5.06%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="96.55">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendated</p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Yuvraj Jadhav</td>
+            <td>7709657669</td>
+            <td>Satara</td>
+            <td>30</td>
+            <td>10 Years</td>
+            <td>
+              <div class="skillbar" data-percent="55.4%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">55.4%</div>
+                <div class="skillbar-bar" style="width: 55.4%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="13.1%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13.1%</div>
+                <div class="skillbar-bar" style="width: 13.1%"></div>
+              </div>
+              <div class="skillbar" data-percent="7.6%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">7.6%</div>
+                <div class="skillbar-bar" style="width: 7.6%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="53.45">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation equally">Equally Recommendated</p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Chandrakant Patil </td>
+            <td>9529939400</td>
+            <td>Nagpur</td>
+            <td>60</td>
+            <td>8 Years</td>
+            <td>
+              <div class="skillbar" data-percent="52%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">52%</div>
+                <div class="skillbar-bar" style="width: 52%"></div>
+              </div>
+              <div class="skillbar" data-percent="27%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">27%</div>
+                <div class="skillbar-bar" style="width: 27%"></div>
+              </div>
+              <div class="skillbar" data-percent="14%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">14%</div>
+                <div class="skillbar-bar" style="width: 14%"></div>
+              </div>
+              <div class="skillbar" data-percent="6.80%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">6.80%</div>
+                <div class="skillbar-bar" style="width: 6.80%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="60.34">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation equally">Equally Recommendated</p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>Ravi Kumar </td>
+            <td> </td>
+            <td>Pimpri, Pune</td>
+            <td>144</td>
+            <td>12 Years</td>
+            <td>
+              <div class="skillbar" data-percent="59%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">59%</div>
+                <div class="skillbar-bar" style="width: 59%"></div>
+              </div>
+              <div class="skillbar" data-percent="23%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">23%</div>
+                <div class="skillbar-bar" style="width: 23%"></div>
+              </div>
+              <div class="skillbar" data-percent="12.66%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12.66%</div>
+                <div class="skillbar-bar" style="width: 12.66%"></div>
+              </div>
+              <div class="skillbar" data-percent="4.82%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">4.82%</div>
+                <div class="skillbar-bar" style="width: 4.82%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="91.38">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Knest (Design Team)</td>
+            <td> </td>
+            <td>Bhosari,Pune</td>
+            <td>292</td>
+            <td>35 Years</td>
+            <td>
+              <div class="skillbar" data-percent="59%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">59%</div>
+                <div class="skillbar-bar" style="width: 59%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="94.82">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Knest (Manufacturing Plant)</td>
+            <td> </td>
+            <td>Talegaon,Pune</td>
+            <td>190</td>
+            <td>60 Years</td>
+            <td>
+              <div class="skillbar" data-percent="59%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">59%</div>
+                <div class="skillbar-bar" style="width: 59%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="94.82">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Bajarang Kenjle</td>
+            <td> </td>
+            <td>Pimple Saudagar,Pune</td>
+            <td>41</td>
+            <td>55 Years</td>
+            <td>
+              <div class="skillbar" data-percent="55%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">55%</div>
+                <div class="skillbar-bar" style="width: 59%"></div>
+              </div>
+              <div class="skillbar" data-percent="25%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">25%</div>
+                <div class="skillbar-bar" style="width: 25%"></div>
+              </div>
+              <div class="skillbar" data-percent="13%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13%</div>
+                <div class="skillbar-bar" style="width: 13%"></div>
+              </div>
+              <div class="skillbar" data-percent="6%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">6%</div>
+                <div class="skillbar-bar" style="width: 6%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="70.69">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Krishna Daundkar</td>
+            <td> </td>
+            <td>Pune</td>
+            <td>65</td>
+            <td>9 Years</td>
+            <td>
+              <div class="skillbar" data-percent="59.22%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">59.22%</div>
+                <div class="skillbar-bar" style="width: 59.22%"></div>
+              </div>
+              <div class="skillbar" data-percent="23.32%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">23.32%</div>
+                <div class="skillbar-bar" style="width: 23.32%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: %"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="75.86">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Winntus Aluform</td>
+            <td> </td>
+            <td>Ajmera Pimpri,Pune</td>
+            <td>25</td>
+            <td>40 Years</td>
+            <td>
+              <div class="skillbar" data-percent="57%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">57%</div>
+                <div class="skillbar-bar" style="width: 57%"></div>
+              </div>
+              <div class="skillbar" data-percent="26%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">26%</div>
+                <div class="skillbar-bar" style="width: 26%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="89.65">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>Prathamesh Bhokade</td>
+            <td> </td>
+            <td>Shukrawarpeth,Pune</td>
+            <td>20</td>
+            <td>NA</td>
+            <td>
+              <div class="skillbar" data-percent="51%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">51%</div>
+                <div class="skillbar-bar" style="width: 51%"></div>
+              </div>
+              <div class="skillbar" data-percent="26%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">26%</div>
+                <div class="skillbar-bar" style="width: 26%"></div>
+              </div>
+              <div class="skillbar" data-percent="15%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">15%</div>
+                <div class="skillbar-bar" style="width: 15%"></div>
+              </div>
+              <div class="skillbar" data-percent="8%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">8%</div>
+                <div class="skillbar-bar" style="width: 8%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="55.17">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation equally">Equally Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Harsh Daundkar</td>
+            <td> </td>
+            <td>Budhwarpeth,Pune</td>
+            <td>70</td>
+            <td>10 Years</td>
+            <td>
+              <div class="skillbar" data-percent="50%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">50%</div>
+                <div class="skillbar-bar" style="width: 50%"></div>
+              </div>
+              <div class="skillbar" data-percent="27%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">27%</div>
+                <div class="skillbar-bar" style="width: 27%"></div>
+              </div>
+              <div class="skillbar" data-percent="15%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">15%</div>
+                <div class="skillbar-bar" style="width: 15%"></div>
+              </div>
+              <div class="skillbar" data-percent="8%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">8%</div>
+                <div class="skillbar-bar" style="width: 8%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="51.72">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation equally">Equally Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>Ambika Construction Pvt.Ltd</td>
+            <td> </td>
+            <td>Savedi,Ahmednagar</td>
+            <td>112</td>
+            <td>5 Years</td>
+            <td>
+              <div class="skillbar" data-percent="59%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">59%</div>
+                <div class="skillbar-bar" style="width: 59%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="13%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13%</div>
+                <div class="skillbar-bar" style="width: 13%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="93.10">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>Akash Muthal</td>
+            <td> </td>
+            <td>Dharashiv</td>
+            <td>35</td>
+            <td>5 Years</td>
+            <td>
+              <div class="skillbar" data-percent="52%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">52%</div>
+                <div class="skillbar-bar" style="width: 52%"></div>
+              </div>
+              <div class="skillbar" data-percent="27%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">27%</div>
+                <div class="skillbar-bar" style="width: 27%"></div>
+              </div>
+              <div class="skillbar" data-percent="14%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">14%</div>
+                <div class="skillbar-bar" style="width: 14%"></div>
+              </div>
+              <div class="skillbar" data-percent="7%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">7%</div>
+                <div class="skillbar-bar" style="width: 7%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="58.62">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation equally">Equally Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>Shivam Kenjale</td>
+            <td> </td>
+            <td>Pune</td>
+            <td>100</td>
+            <td>13 Years</td>
+            <td>
+              <div class="skillbar" data-percent="57%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">57%</div>
+                <div class="skillbar-bar" style="width: 57%"></div>
+              </div>
+              <div class="skillbar" data-percent="25%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">25%</div>
+                <div class="skillbar-bar" style="width: 25%"></div>
+              </div>
+              <div class="skillbar" data-percent="13%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13%</div>
+                <div class="skillbar-bar" style="width: 13%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="100">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation</p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>Sant Krupa Construction</td>
+            <td> </td>
+            <td>Jambhe,Pune</td>
+            <td>180</td>
+            <td>4 Years</td>
+            <td>
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="25%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">25%</div>
+                <div class="skillbar-bar" style="width: 25%"></div>
+              </div>
+              <div class="skillbar" data-percent="13%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13%</div>
+                <div class="skillbar-bar" style="width: 13%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="94.82">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>Kenjale Shivam</td>
+            <td> </td>
+            <td>Satara</td>
+            <td>190</td>
+            <td>15 Years</td>
+            <td>
+              <div class="skillbar" data-percent="54%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">54%</div>
+                <div class="skillbar-bar" style="width: 54%"></div>
+              </div>
+              <div class="skillbar" data-percent="26%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">26%</div>
+                <div class="skillbar-bar" style="width: 26%"></div>
+              </div>
+              <div class="skillbar" data-percent="14%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">14%</div>
+                <div class="skillbar-bar" style="width: 14%"></div>
+              </div>
+              <div class="skillbar" data-percent="6%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">6%</div>
+                <div class="skillbar-bar" style="width: 6%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="100">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>Santosh Kale</td>
+            <td> </td>
+            <td>Nashik</td>
+            <td>60</td>
+            <td>2 Years</td>
+            <td>
+              <div class="skillbar" data-percent="60%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">60%</div>
+                <div class="skillbar-bar" style="width: 60%"></div>
+              </div>
+              <div class="skillbar" data-percent="21%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">21%</div>
+                <div class="skillbar-bar" style="width: 21%"></div>
+              </div>
+              <div class="skillbar" data-percent="13%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13%</div>
+                <div class="skillbar-bar" style="width: 13%"></div>
+              </div>
+              <div class="skillbar" data-percent="7%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">7%</div>
+                <div class="skillbar-bar" style="width: 7%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="65.52">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation equally">Equally Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>20</td>
+            <td>Shubham Pingale</td>
+            <td> </td>
+            <td>Nashik Road</td>
+            <td>11</td>
+            <td>6 Years</td>
+            <td>
+              <div class="skillbar" data-percent="50%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">50%</div>
+                <div class="skillbar-bar" style="width: 50%"></div>
+              </div>
+              <div class="skillbar" data-percent="26%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">26%</div>
+                <div class="skillbar-bar" style="width: 26%"></div>
+              </div>
+              <div class="skillbar" data-percent="15%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">15%</div>
+                <div class="skillbar-bar" style="width: 15%"></div>
+              </div>
+              <div class="skillbar" data-percent="9%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">9%</div>
+                <div class="skillbar-bar" style="width: 9%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="50">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation equally">Equally Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>21</td>
+            <td>Digvijay Mudde </td>
+            <td> </td>
+            <td>Pune</td>
+            <td>60</td>
+            <td>7 Years</td>
+            <td>
+              <div class="skillbar" data-percent="56%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">56%</div>
+                <div class="skillbar-bar" style="width: 56%"></div>
+              </div>
+              <div class="skillbar" data-percent="25%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">25%</div>
+                <div class="skillbar-bar" style="width: 25%"></div>
+              </div>
+              <div class="skillbar" data-percent="13%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13%</div>
+                <div class="skillbar-bar" style="width: 13%"></div>
+              </div>
+              <div class="skillbar" data-percent="6%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">6%</div>
+                <div class="skillbar-bar" style="width: 6%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="77.59">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>22</td>
+            <td>Vaishnav Chandrakant Kenjale</td>
+            <td> </td>
+            <td>Bhivandi</td>
+            <td>9</td>
+            <td>2 Years</td>
+            <td>
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="23%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">23%</div>
+                <div class="skillbar-bar" style="width: 23%"></div>
+              </div>
+              <div class="skillbar" data-percent="13%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13%</div>
+                <div class="skillbar-bar" style="width: 13%"></div>
+              </div>
+              <div class="skillbar" data-percent="6%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">6%</div>
+                <div class="skillbar-bar" style="width: 6%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="72.41">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>23</td>
+            <td>United Construction</td>
+            <td> </td>
+            <td>Goa</td>
+            <td>50</td>
+            <td>21 Years</td>
+            <td>
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="81.03">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>24</td>
+            <td>Shamkumar</td>
+            <td> </td>
+            <td>Ayodhya</td>
+            <td>70</td>
+            <td>5 Years</td>
+            <td>
+              <div class="skillbar" data-percent="59%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">59%</div>
+                <div class="skillbar-bar" style="width: 59%"></div>
+              </div>
+              <div class="skillbar" data-percent="23%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">23%</div>
+                <div class="skillbar-bar" style="width: 23%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="87.93">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>25</td>
+            <td>Abhi Deshmukh</td>
+            <td> </td>
+            <td>Moshi</td>
+            <td>7</td>
+            <td>NA</td>
+            <td>
+              <div class="skillbar" data-percent="57%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">57%</div>
+                <div class="skillbar-bar" style="width: 57%"></div>
+              </div>
+              <div class="skillbar" data-percent="25%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">25%</div>
+                <div class="skillbar-bar" style="width: 25%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="93.10">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>26</td>
+            <td>Parth Rushikesh Gade</td>
+            <td> </td>
+            <td>Pimpri</td>
+            <td>60</td>
+            <td>3 Years</td>
+            <td>
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="22%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">22%</div>
+                <div class="skillbar-bar" style="width: 22%"></div>
+              </div>
+              <div class="skillbar" data-percent="14%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">14%</div>
+                <div class="skillbar-bar" style="width: 14%"></div>
+              </div>
+              <div class="skillbar" data-percent="6%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">6%</div>
+                <div class="skillbar-bar" style="width: 6%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="65.52">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation equally">Equally Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>27</td>
+            <td>Rushikesh Sanjay Gade</td>
+            <td> </td>
+            <td>Ahmednagar</td>
+            <td>50</td>
+            <td>5 Years</td>
+            <td>
+              <div class="skillbar" data-percent="52%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">52%</div>
+                <div class="skillbar-bar" style="width: 52%"></div>
+              </div>
+              <div class="skillbar" data-percent="25%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">25%</div>
+                <div class="skillbar-bar" style="width: 25%"></div>
+              </div>
+              <div class="skillbar" data-percent="15%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">15%</div>
+                <div class="skillbar-bar" style="width: 15%"></div>
+              </div>
+              <div class="skillbar" data-percent="7%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">7%</div>
+                <div class="skillbar-bar" style="width: 7%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="56.90">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation equally">Equally Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>Ramesh Patil</td>
+            <td> </td>
+            <td>Nahsik</td>
+            <td>30</td>
+            <td>5 Years</td>
+            <td>
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="25%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">25%</div>
+                <div class="skillbar-bar" style="width: 25%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="98.28">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>29</td>
+            <td>Jayesh Ghorpade</td>
+            <td> </td>
+            <td>Dehu</td>
+            <td>52</td>
+            <td>5 Years</td>
+            <td>
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="84.48">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>30</td>
+            <td>Vikas Patil</td>
+            <td> </td>
+            <td>Pimpri</td>
+            <td>12</td>
+            <td>6 Years</td>
+            <td>
+              <div class="skillbar" data-percent="59%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">59%</div>
+                <div class="skillbar-bar" style="width: 59%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="91.38">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>31</td>
+            <td>Adhikrao Jadhav</td>
+            <td> </td>
+            <td>Satara</td>
+            <td>91</td>
+            <td> </td>
+            <td>
+              <div class="skillbar" data-percent="57%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">57%</div>
+                <div class="skillbar-bar" style="width: 57%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="13%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13%</div>
+                <div class="skillbar-bar" style="width: 13%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="75.86">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>Yash</td>
+            <td> </td>
+            <td>Mumbai</td>
+            <td>25</td>
+            <td>2 Years</td>
+            <td>
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="13%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13%</div>
+                <div class="skillbar-bar" style="width: 13%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="81.38">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>33</td>
+            <td>Pradip Ram Rathod</td>
+            <td> </td>
+            <td>Yavatmal</td>
+            <td>55</td>
+            <td>5 Years</td>
+            <td>
+              <div class="skillbar" data-percent="59%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">59%</div>
+                <div class="skillbar-bar" style="width: 59%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="4%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">4%</div>
+                <div class="skillbar-bar" style="width: 4%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="100">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>34</td>
+            <td>Sakasham</td>
+            <td> </td>
+            <td>Pooch J&K</td>
+            <td>18</td>
+            <td>3 Years</td>
+            <td>
+              <div class="skillbar" data-percent="57%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">57%</div>
+                <div class="skillbar-bar" style="width: 57%"></div>
+              </div>
+              <div class="skillbar" data-percent="25%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">25%</div>
+                <div class="skillbar-bar" style="width: 25%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="82.76">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>35</td>
+            <td>Aniket</td>
+            <td> </td>
+            <td>Jammu</td>
+            <td>17</td>
+            <td>2 Years</td>
+            <td>
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="25%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">25%</div>
+                <div class="skillbar-bar" style="width: 25%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="91.38">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>36</td>
+            <td>Sambhaji Sir</td>
+            <td> </td>
+            <td>Pimpri</td>
+            <td>425</td>
+            <td>12 Years</td>
+            <td>
+              <div class="skillbar" data-percent="58%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">58%</div>
+                <div class="skillbar-bar" style="width: 58%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="87.93">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation moderately">Moderately Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>37</td>
+            <td>Ashish R Kore</td>
+            <td> </td>
+            <td>Pimpri</td>
+            <td>25</td>
+            <td> </td>
+            <td>
+              <div class="skillbar" data-percent="59%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">59%</div>
+                <div class="skillbar-bar" style="width: 59%"></div>
+              </div>
+              <div class="skillbar" data-percent="24%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">24%</div>
+                <div class="skillbar-bar" style="width: 24%"></div>
+              </div>
+              <div class="skillbar" data-percent="12%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">12%</div>
+                <div class="skillbar-bar" style="width: 12%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="100">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>38</td>
+            <td>Lalit Sangore</td>
+            <td> </td>
+            <td>Chopda</td>
+            <td>12</td>
+            <td>3 Years</td>
+            <td>
+              <div class="skillbar" data-percent="55%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">55%</div>
+                <div class="skillbar-bar" style="width: 55%"></div>
+              </div>
+              <div class="skillbar" data-percent="23%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">23%</div>
+                <div class="skillbar-bar" style="width: 23%"></div>
+              </div>
+              <div class="skillbar" data-percent="15%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">15%</div>
+                <div class="skillbar-bar" style="width: 15%"></div>
+              </div>
+              <div class="skillbar" data-percent="8%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">8%</div>
+                <div class="skillbar-bar" style="width: 8%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="50">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation notrecommend">Non Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>39</td>
+            <td>Piyush Mahure</td>
+            <td> </td>
+            <td>Pimpri</td>
+            <td> </td>
+            <td> </td>
+            <td>
+              <div class="skillbar" data-percent="55%">
+                <div class="skillbar-title">Safety</div>
+                <div class="skill-bar-percent">55%</div>
+                <div class="skillbar-bar" style="width: 55%"></div>
+              </div>
+              <div class="skillbar" data-percent="27%">
+                <div class="skillbar-title">Wages</div>
+                <div class="skill-bar-percent">27%</div>
+                <div class="skillbar-bar" style="width: 27%"></div>
+              </div>
+              <div class="skillbar" data-percent="13%">
+                <div class="skillbar-title">Duration</div>
+                <div class="skill-bar-percent">13%</div>
+                <div class="skillbar-bar" style="width: 13%"></div>
+              </div>
+              <div class="skillbar" data-percent="5%">
+                <div class="skillbar-title">Labor Law</div>
+                <div class="skill-bar-percent">5%</div>
+                <div class="skillbar-bar" style="width: 5%"></div>
+              </div>
+            </td>
+            <td>
+              <div id="softs"></div></br>
+              <div id="hbars">
+                <div class="bar hbar" data-percent="91.38">
+                  <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="recommendation strongly">Strongly Recommendation </p>
+            </td>
+            <td>
+              <div class="feedback-form">
+                <form id="feedbackForm">
+                  <div class="rating">
+                    <!-- Notice that the stars are in reverse order -->
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                  </div>
+                  <div class="comment">
+                    <label for="comment">Tell us more:</label><br>
+                    <textarea id="comment" name="comment"></textarea>
+                  </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
